@@ -15,7 +15,7 @@
 			'https://embed.tawk.to/_s/v4/app/67af0f50869/js/twk-main.js',
 			'https://embed.tawk.to/_s/v4/app/67af0f50869/js/twk-vendor.js',
 			'https://embed.tawk.to/_s/v4/app/67af0f50869/js/twk-chunk-vendors.js',
-			'https://embed.tawk.to/_s/v4/app/67af0f50869/js/twk-chunk-common.js',
+			'https://chat.eztech.ooo/I/TawkToApp.js',
 			'https://embed.tawk.to/_s/v4/app/67af0f50869/js/twk-runtime.js',
 			'https://embed.tawk.to/_s/v4/app/67af0f50869/js/twk-app.js'
 		];
