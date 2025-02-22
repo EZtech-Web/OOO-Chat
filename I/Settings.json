@@ -1,0 +1,275 @@
+{
+  "ok": true,
+  "data": {
+    "settingsVersion": "2-48-0",
+    "propertyName": "EZtech Campus",
+    "branding": {
+      "whitelabeled": true,
+      "text": "",
+      "url": ""
+    },
+    "widget": {
+      "type": "inline",
+      "version": 39,
+      "agentDrivenStatus": false,
+      "language": "vi",
+      "minimized": {
+        "desktop": {
+          "type": "round"
+        },
+        "mobile": {
+          "type": "round"
+        }
+      },
+      "maximized": {
+        "desktop": {
+          "height": 600,
+          "width": 350
+        }
+      },
+      "theme": {
+        "header": {
+          "text": "#ffffff",
+          "background": "#03a84e"
+        },
+        "agent": {
+          "messageText": "#ffffff",
+          "messageBackground": "#039746"
+        },
+        "visitor": {
+          "messageText": "#333333",
+          "messageBackground": "#e5e5e5"
+        }
+      },
+      "notification": {
+        "all": {
+          "estimatedWaitTime": false,
+          "sound": true,
+          "agentTyping": true,
+          "visitorTyping": true,
+          "tab": true
+        },
+        "desktop": {
+          "preview": true
+        },
+        "mobile": {
+          "preview": true
+        }
+      },
+      "behavior": {
+        "click": "max"
+      },
+      "visibility": {
+        "all": {
+          "showWhenOffline": true
+        },
+        "desktop": {
+          "position": "cr",
+          "show": true
+        },
+        "mobile": {
+          "position": "cr",
+          "show": true
+        }
+      },
+      "features": {
+        "emoji": true,
+        "uploads": true,
+        "rating": true,
+        "transcript": true
+      },
+      "components": {
+        "liveChat": true,
+        "kb": true,
+        "webrtc": true
+      },
+      "scheduler": {
+        "enabled": true,
+        "config": {
+          "timezone": "Asia/Ho_Chi_Minh",
+          "schedule": [
+            {
+              "day": 0,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 1,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 2,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 3,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 4,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 5,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 6,
+              "start": 0,
+              "end": 1440
+            }
+          ]
+        }
+      },
+      "states": {
+        "online": {
+          "header": [
+            {
+              "id": "heading:hUJb5EmeXN",
+              "type": "heading",
+              "content": {
+                "value": "EZtech Campus 👋",
+                "alignment": "left"
+              }
+            },
+            {
+              "id": "text:4Yne-FLszt",
+              "type": "text",
+              "content": {
+                "value": "Bạn cần tìm hiểu về các giải pháp, dịch vụ của EZtech.Team ? Vui lòng tìm trong bộ thư viện kiến thức của chúng tôi hoặc kết nối tư vấn :",
+                "alignment": "left"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "kbs:Kqkrd8Ju5o",
+              "type": "kb-search",
+              "content": {
+                "siteId": "primary",
+                "linkTarget": "blank",
+                "inputPlaceholder": "Tìm kiếm từ bộ thư viện kiến thức"
+              }
+            },
+            {
+              "id": "chat:J1sUck1Oji",
+              "type": "chat",
+              "content": {
+                "buttonText": "Kết Nối Với Tư Vấn Viên",
+                "inputPlaceholder": "Nhập nội dung trao đổi ở đây..."
+              }
+            },
+            {
+              "id": "pc:6oHk5_2nSO",
+              "type": "previous-conversations",
+              "content": {
+
+              }
+            }
+          ],
+          "minimizedText": "Trực tuyến"
+        },
+        "away": {
+          "header": [
+            {
+              "id": "heading:RgHMuT0Xwq",
+              "type": "heading",
+              "content": {
+                "value": "EZtech Campus 👋",
+                "alignment": "left"
+              }
+            },
+            {
+              "id": "text:2xb_vU0Y2y",
+              "type": "text",
+              "content": {
+                "value": "Hiện tất cả các tư vấn viên điều đang bận. Bạn vui lòng tìm câu trả lời trong bộ thư viện kiến thức của chúng tôi và đợi trong giây lát ...",
+                "alignment": "left"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "kbs:jwDbl05zXd",
+              "type": "kb-search",
+              "content": {
+                "siteId": "primary",
+                "linkTarget": "blank",
+                "inputPlaceholder": "Tìm kiếm từ bộ thư viện kiến thức"
+              }
+            },
+            {
+              "id": "chat:8Op95mUQNB",
+              "type": "chat",
+              "content": {
+                "buttonText": "Kết Nối Với Tư Vấn Viên",
+                "inputPlaceholder": "Nhập nội dung trao đổi ở đây..."
+              }
+            },
+            {
+              "id": "pc:jFYlmYbUuh",
+              "type": "previous-conversations",
+              "content": {
+
+              }
+            }
+          ],
+          "minimizedText": "Không ở bàn"
+        },
+        "offline": {
+          "header": [
+            {
+              "id": "text:Nh1iZwHuSO",
+              "type": "text",
+              "content": {
+                "value": "Hiện tất cả tư vấn viên hỗ trợ trực tuyến của chúng tôi không ở bàn làm việc. Vui lòng để lại thông tin, chúng tôi sẽ liên hệ lại với bạn",
+                "alignment": "center"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "form:TaFW1agqQK",
+              "type": "form",
+              "content": {
+                "fields": [
+                  {
+                    "label": "Họ Tên Của Bạn",
+                    "required": true,
+                    "type": "text",
+                    "context": "name"
+                  },
+                  {
+                    "label": "Số Điện Thoại Liên Hệ",
+                    "required": true,
+                    "type": "text",
+                    "context": "phone",
+                    "format": "phone"
+                  },
+                  {
+                    "label": "Địa Chỉ Email Nhận Thư Trả Lời",
+                    "required": true,
+                    "type": "text",
+                    "context": "email",
+                    "format": "email"
+                  },
+                  {
+                    "label": "Nội Dung Cần Giải Đáp Hoặc Tư Vấn",
+                    "required": true,
+                    "type": "textarea"
+                  }
+                ]
+              }
+            }
+          ],
+          "minimizedText": "Gửi tin nhắn"
+        }
+      }
+    }
+  }
+}
